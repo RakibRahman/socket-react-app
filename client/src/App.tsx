@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { SendMessage } from './components/SendMessage'
+import { Users } from './components/Users'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       Connect Now
     </h1>
     <SendMessage/>
+    <Users/>
     </>
   )
 }
